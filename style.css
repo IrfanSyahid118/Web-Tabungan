@@ -1,0 +1,21 @@
+#header, #stats, #history{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+#history {
+    display: flex;
+    height: 35vh;
+}
+
+.modal::backdrop {
+    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#reset-btn {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
